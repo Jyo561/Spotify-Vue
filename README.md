@@ -1,5 +1,7 @@
 # spotify-clobe-vue
 
+Credits:- [@Vetrivel-VP](https://github.com/Vetrivel-VP) for the ui part
+
 ## Project setup
 ```
 npm install
