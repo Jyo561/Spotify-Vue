@@ -6,7 +6,7 @@
 	backdrop-filter:  blur(10px);
 	padding: 20px 15px;
 	overflow: hidden;
-	transition: all 0.3s cubic-beizer(0.175,0.885,0.32,1.275);
+	transition: all 0.3s cubic-bezier(0.175,0.885,0.32,1.275);
 }
 .leftMenu .logoContainer {
 	color: #f1f1f1;
@@ -159,11 +159,14 @@
 	overflow-y: scroll;
 	position: relative;
 }
+.playListContainer .playListScroll::-webkit-scrollbar{
+	display: none;
+}
 .playListContainer .playListScroll .playList{
-display: flex;
-align-items: center;
-color: #848484;
-margin: 10px 0;
+	display: flex;
+	align-items: center;
+	color: #848484;
+	margin: 10px 0;
 }
 .playListContainer .playListScroll .playList i{
 	font-size: 18px;
